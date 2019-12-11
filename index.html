@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Whittard</title>
+    <meta name="homepage" content="intro">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/naviagtion.css">
+    <link rel="stylesheet" href="css/topnavbar.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wmj5zgw.css">
+
+    <script src="https://kit.fontawesome.com/11b9e02d1a.js"></script>
+</head>
+
+<body>
+    <header class="header_container">
+        <nav class="navigation_container">
+            <a href="index.html"><img src="./images/logo.png" alt="Whittard image" class="logo_image"></a>
+
+
+
+            <input class="menu-btn" type="checkbox" id="menu-btn">
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
+            <div class="menu navbar">
+                <div class="dropdown">
+                    <a href="./subpages/tea.html" class="nav_link">Tea</a>
+                    <div class="dropdown-content">
+                        <a href="./subpages/blacktea.html" class="nav_link">Black Tea</a>
+                        <a href="#" class="nav_link">Green Tea</a>
+                        <a href="#" class="nav_link">Fruit Tea</a>
+                        <a href="#" class="nav_link">Oolong Tea</a>
+                        <a href="#" class="nav_link">White Tea</a>
+                        <a href="#" class="nav_link">Puerh Tea</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <a href="./subpages/coffee.html" class="nav_link">Coffee</a>
+
+                </div>
+
+                <div class="dropdown">
+                    <a href="./subpages/history.html" class="nav_link">History</a>
+                    <div class="dropdown-content">
+                    </div>
+                </div>
+            </div>
+
+            <ul class="mobilemenu">
+                <li><a href="../subpages/tea.html" class="nav_link">Tea</a>
+                    <ul>
+                        <li><a href="../subpages/blacktea.html" class="nav_link menu_item">Black Tea</a></li>
+                        <li><a href="#" class="nav_link menu_item">Green Tea</a></li>
+                        <li><a href="#" class="nav_link menu_item">Fruit Tea</a></li>
+                        <li><a href="#" class="nav_link menu_item">Oolong Tea</a></li>
+                        <li><a href="#" class="nav_link menu_item">White Tea</a></li>
+                        <li><a href="#" class="nav_link menu_item">Puerh Tea</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="../subpages/coffee.html" class="nav_link">Coffee</a>
+
+                </li>
+                <li><a href="../subpages/history.html" class="nav_link">History</a>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+
+        <div class="intro_text">
+            <h3> When Walter Whittard opened his first London shop in 1886, his philosophy was simple: buy the best.
+                Whittard stand by his words, driving his belief in quality, heritage and innovation.
+                Today their world-class range of tea, coffee satisfies every curiosity and taste – from classic English
+                Breakfast tea to unique tea and coffee blends.</h3>
+        </div>
+        <br> <br>
+        <h5 class="special_offer">Special offers</h5>
+        <video autoplay loop muted src="video.mp4" class="video"></video>
+        <div class="contest">
+            <h4 class="context_text">CONTEST</h4>
+            <h3 class="contextt_text">Do you have some nice story behind drinking tea? <br>
+                Share it with us and maybe your tasty story will be the best and will win set of your favorite tea!!!<br>
+                Click on icon to take part in our competition</h3>
+        </div>
+
+        <button onclick="document.getElementById('modal_id').style.display='block';" class="fas fa-coffee"></button>
+        <div id="modal_id" class="modal animate">
+            <div class="modal_content">
+                <span onclick="document.getElementById('modal_id').style.display='none';" class="close">&times;</span>
+                <h1 class="headline_contest">WRITE THE STORY, WHICH MELT OUR HEARTS LIKE HOT TEA OR MAKE US LAUGH AS LOUD AS WE CAN!!<br>
+                SEND US YOUR STORY AND WE WILL PUBLISH THE BEST ONE <br>
+                WE HAVE GREAT PRIZE FOR THE WINNER
+                 </h1>
+
+
+                <div class="containerFORTEXT">
+                    <input type="text" placeholder="Your story" name="story" required>
+                </div>
+
+                <div class="container">
+                    <input type="text" placeholder="Your mail" name="mail" required>
+                </div>
+
+                <button type="button" onclick="document.getElementById('modal_id').style.display='none';" class="gotit">SEND</button>
+            </div>
+        </div>
+        <script>
+            document.getElementById('modal_id').style.display = 'block';
+        </script>
+        <br><br>
+
+        <h4 class="drink_type">Are you more coffee or tea type? <br>
+            Choose and get to know better our offer</h4>
+        <img src="images/home_page_photo.jpg" alt="wallpaper" class="home_image">
+        <a href="./subpages/tea.html" class="drink_link">TEA</a>
+        <a href="./subpages/coffee.html" class="drink_link">COFFEE</a>
+
+    </main>
+
+    <footer>
+          <form action="action_page.php">
+            <div class="newsletter_container">
+                <h2 class="newsletter">SIGN UP FOR OUR LATEST TEA AND COFFEEE NEWS</h2>
+            </div>
+
+            <div class="newsletter_container">
+                <input type="text" placeholder="Name" name="name">
+                <input type="text" placeholder="Email address" name="mail">
+            </div>
+
+            <div class="newsletter_container">
+                <input type="submit" value="SUBSCRIBE" style="width: 26vw; font-weight: bold; background-color: #415765; ">
+            </div>
+        </form>
+        <div style="background-color: #F1ECE2;">
+            <div class="some_icons">
+                <ul class="icons">
+                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body></html>

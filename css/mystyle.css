@@ -1,0 +1,618 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.nav_link {
+    display: block;
+    color: #F1ECE2;
+    text-align: center;
+    color: #415765;
+    font-size: 18px;
+    background-color: #F1ECE2;
+    text-align: left;
+    padding: 13px;
+    text-decoration: none;
+    font-family: goudy-old-style, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navigation_container {
+    background-color: #F1ECE2;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    height: 53px;
+    border-width: 3px;
+}
+
+.menu {
+    list-style: none;
+    overflow: hidden;
+    background-color: #F1ECE2;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+.menu_item {
+    font-size: 12px;
+    padding: 5px 5px 5px 20px;
+
+}
+
+.menu_item:hover {
+    opacity: 0.7;
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    background-color: #F1ECE2;
+    padding: 32px;
+    width: 100%;
+
+}
+
+.form_headline {
+    color: #415765;
+    font-size: 4vw;
+    margin-bottom: 11px;
+    font-family: goudy-old-style, serif;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.form_label {
+    font-size: 3vw;
+    color: #415765;
+    font-family: goudy-old-style, serif;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.form_element {
+    padding: 1vw;
+    margin: 0 0 5px 0;
+    font-size: 3vw;
+}
+
+.intro_text {
+    margin-top: 20vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    justify-content: center;
+    text-align: center;
+    font-family: ministry, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 3vw;
+    color: #61432B;
+}
+
+.special_offer {
+    text-align: center;
+    font-size: 4vw;
+    font-family: bookmania, serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #74663E;
+
+}
+
+.video {
+    width: 70%;
+    margin: 2vw auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fa-coffee {
+    margin: 0 auto;
+}
+
+.contest {
+    justify-content: center;
+    align-items: center;
+    border-width: 1vw;
+    border-color: #61432B;
+    border-radius: 2vw;
+    font-family: ministry, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 3vw;
+    margin: 3vw 3vw 1vw 3vw;
+    justify-content: center;
+    border-width: 1vw;
+    border-radius: 1vw;
+    text-align: center;
+    color: #61432B;
+}
+
+.context_text {
+    font-size: 4vw;
+}
+
+
+.drink_type {
+    font-family: fira-sans, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 4vw;
+    justify-content: center;
+    text-align: center;
+    color: #61432B;
+}
+
+.home_image {
+    width: 60%;
+    margin: 2vw auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.drink_link {
+    text-decoration: none;
+    font-family: fira-sans, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    margin-left: 28vw;
+    font-size: 3vw;
+    justify-content: center;
+    text-align: center;
+    color: #61432B;
+}
+
+form {}
+
+.newsletter_container {
+    background-color: white;
+    color: #415765;
+    text-align: center;
+    margin-bottom: 2vw;
+}
+
+input[type=text],
+input[type=submit] {
+    width: 50vw;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid grey;
+}
+
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+/* Styling the submit button */
+input[type=submit] {
+    background-color: #415765;
+    color: white;
+    border: none;
+    border: 1px solid grey;
+}
+
+.some_icons {
+    display: inline;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.fab {
+    font-size: 30px;
+    padding: 10px;
+    margin: 1vw;
+    color: #415765;
+}
+
+.fab:hover {
+    opacity: 0.4;
+}
+
+.newsletter {
+    font-size: 3vw;
+    margin-top: 2vw;
+    font-family: goudy-old-style, serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #415765;
+}
+
+.intro_onteapage {
+    padding: 10px;
+    margin: 18vw 3vw 3vw 3vw;
+    justify-content: center;
+    text-align: center;
+    color: #237441;
+    font-family: fira-sans, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 5vw;
+    border: 1px solid #237441;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.tea_page {
+    background-image: url(../images/lisciee.jpg)
+}
+
+.types_tea {
+    justify-content: center;
+    text-align: center;
+    color: #61432B;
+    font-family: fira-sans, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+
+}
+
+.tea_name {
+
+    color: #61432B;
+    text-decoration: none;
+    font-family: fira-sans, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    justify-content: center;
+    text-align: center;
+    margin-left: 4vw;
+    font-size: 6vw;
+
+}
+
+.tea_name:hover {
+    color: #237441;
+}
+
+.coffee_intro {
+    margin-top: 17vw;
+    justify-content: center;
+    text-align: center;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    color: #74663E;
+    background-color: white;
+}
+
+.coffee_headline {
+    margin-bottom: 2vw;
+    font-family: bookmania, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8vw;
+}
+
+.coffee_bodytext {
+    text-decoration: none;
+    font-family: fira-sans, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.coffee_page {
+    background-image: url(../images/coffee.jpg)
+}
+
+.coffee_difference {
+    justify-content: center;
+    width: 70%;
+    margin-left: 15vw;
+    margin-top: 3vw;
+
+}
+
+.blacktea_intro {
+    margin: 16vw 5vw 2vw 5vw;
+    text-align: center;
+    justify-content: center;
+    color: #74663E;
+}
+
+.title_blacktea {
+    font-family: moderno-fb, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 6vw;
+}
+
+.text_blacktea {
+    text-decoration: none;
+    font-family: fira-sans, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 4vw;
+    margin-top: 2vw;
+}
+
+.three:after {
+    content: "";
+    clear: both;
+    display: table;
+    justify-content: center;
+}
+
+.three:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.three {
+    width: 70%;
+    margin: 3vw 18vw;
+}
+
+.div_tea {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tea_body {
+    width: 320px;
+    text-align: center;
+    margin-bottom: 2vw;
+}
+
+.modal_content {
+    justify-content: center;
+    align-content: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.fas {
+    font-size: 10vw;
+    justify-content: center;
+    width: 7vw;
+    margin-left: 45vw;
+    color: #61432B;
+    text-align: center;
+    background-color: white;
+
+}
+
+.close {
+    font-size: 10vw;
+}
+
+.headline_contest {
+    font-size: 3vw;
+    font-family: ministry, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 42%;
+    padding: 10px;
+    height: 190vw;
+    margin: 4vw;
+    font-family: fira-sans, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.coffee_offer {
+    background-color: white;
+    font-family: moderno-fb, serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.coffee_image {
+    width: 40%;
+    margin-left: 4vw;
+}
+
+.name_coffee {
+    display: table;
+}
+
+.offer_intro {
+    justify-content: center;
+    text-align: center;
+}
+
+.description_coffee {
+    margin-left: 1vw;
+}
+
+.coffee_image_extra {
+    display: none;
+}
+
+.coffee_image_extra:hover {
+    transform: scale(1.2);
+}
+
+.coffee_image:hover {
+    transform: scale(1.2);
+}
+
+.blacktealady {
+    max-width: 100%;
+}
+
+.black_tea_tips {
+    margin: 3vw;
+}
+
+.black_tips {
+    font-family: fira-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #61432B;
+    margin-bottom: 5vw;
+}
+
+.threetea {
+    width: 100%;
+}
+
+@media only screen and (min-width: 825px) {
+    .form_element {
+        font-size: 1vw;
+    }
+
+    .form_label {
+        font-size: 1vw;
+
+    }
+
+    .form_headline {
+        font-size: 1vw;
+
+    }
+
+    .intro_text {
+        margin-top: 6vw;
+        font-size: 2vw;
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+
+    .context_text {
+        font-size: 3vw;
+    }
+
+    .contest {
+        font-size: 2vw;
+    }
+
+    .fas {
+        width: 4vw;
+    }
+
+    .drink_type {
+        font-size: 3vw;
+    }
+
+    newsletter {
+        font-size: 2vw;
+    }
+
+    .intro_onteapage {
+        font-size: 2vw;
+        margin: 6vw 5vw 5vw 3vw;
+    }
+
+    .types_tea {
+        font-size: 3vw;
+        margin-bottom: 2vw;
+    }
+
+    .tea_name {
+        font-size: 2vw;
+    }
+
+    .coffee_headline {
+        font-size: 3vw;
+    }
+
+    .coffee_intro {
+        margin-top: 5vw;
+    }
+
+    .coffee_bodytext {
+        font-size: 2vw;
+    }
+
+    .column {
+        width: 40%;
+        margin: 4.9vw;
+        height: 50vw;
+        font-size: 2vw;
+    }
+
+    .coffee_image {
+        width: 33%;
+        margin-left: 0;
+    }
+
+    .coffee_image_extra {
+        display: inline-block;
+        width: 33%;
+    }
+
+    .offer_intro {
+        font-size: 3vw;
+    }
+
+    .description_coffee {
+        font-size: 2vw;
+    }
+
+    .blacktea_intro {
+        margin-top: 4vw;
+    }
+
+    .title_blacktea {
+        font-size: 4vw;
+    }
+
+    .text_blacktea {
+        font-size: 2vw;
+    }
+
+    .threetea {
+        width: 33.33%;
+    }
+
+    .three {
+        display: flex;
+    }
+
+    .tea_name {
+        margin-left: 0;
+    }
+
+    .black_tips {
+        font-size: 2vw;
+    }
+
+    .blacktealady {
+        width: 40%;
+    }
+
+    .black_tea_tips {
+        display: flex;
+    }
+}

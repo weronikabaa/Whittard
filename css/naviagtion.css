@@ -1,0 +1,144 @@
+/* Telling the navigation list */
+/* to hide (max-height=0) */
+/* and center text when it shows up */
+.menu {
+    clear: both;
+    text-align: center;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+/* Mobile friendly menu that must */
+/* turn up when clicking on the */
+/* burger menu */
+.mobilemenu {
+    display: none;
+    clear: both;
+    text-align: center;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+
+/* Show burger icon to the far right */
+/* Change mouse cursor on hover from */
+/* arrow to hand with finger */
+.menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+    color: white;
+}
+
+
+/* Make beef in burger */
+.navicon {
+    background: white;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+}
+
+/* Make bread top and bottom */
+.navicon:before,
+.navicon:after {
+    background: white;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.navicon:before {
+    top: 5px;
+}
+
+.navicon:after {
+    top: -5px;
+}
+
+/* End of bread making */
+
+/* ---- Menu Button ---- */
+
+
+/* Do not show checkbox */
+.menu-btn {
+    display: none;
+}
+
+/* Show menu when you check button */
+.menu-btn:checked ~ .mobilemenu {
+    display: block;
+    max-height: 300px;
+}
+
+/* Animate button on click */
+.menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+}
+
+.menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+}
+
+.menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+}
+
+.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+}
+
+/* End button animation */
+
+
+@media only screen and (min-width: 1037px) {
+
+    /* Menu on wide screen */
+
+    .menu_item {
+        float: left;
+    }
+
+    .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+        margin-top: 7px;
+    }
+
+    .mobilemenu {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+}
+
+
+.logo_image {
+    width: 19vw;
+    margin-top: 3vw;
+    margin-left: 2vw;
+}
+
+@media only screen and (min-width: 825px) {
+    .logo_image {
+        width: 5vw;
+        margin-top: 1vw;
+        margin-left: 1vw;
+    }
+}
