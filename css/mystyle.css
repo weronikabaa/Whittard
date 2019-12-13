@@ -144,6 +144,10 @@
 
 .context_text {
     font-size: 4vw;
+      font-family: moderno-fb, serif;
+    font-weight: 400;
+    font-style: normal;
+
 }
 
 
@@ -177,6 +181,8 @@
     justify-content: center;
     text-align: center;
     color: #61432B;
+    border-style: solid;
+    text-decoration: underline;
 }
 
 form {}
@@ -230,7 +236,7 @@ input[type=submit] {
 }
 
 .newsletter {
-    font-size: 3vw;
+    font-size: 5vw;
     margin-top: 2vw;
     font-family: goudy-old-style, serif;
     font-style: normal;
@@ -469,6 +475,9 @@ input[type=submit] {
 
 .blacktealady {
     max-width: 100%;
+    justify-content: center;
+align-items: center;
+    margin-left:30vw;
 }
 
 .black_tea_tips {
@@ -593,7 +602,7 @@ input[type=submit] {
     }
 
     .threetea {
-        width: 33.33%;
+        width: 60%;
     }
 
     .three {
@@ -611,8 +620,9 @@ input[type=submit] {
     .blacktealady {
         width: 40%;
     }
-
-    .black_tea_tips {
-        display: flex;
+    .newsletter {
+        font-size: 3vw;
     }
+
+
 }
